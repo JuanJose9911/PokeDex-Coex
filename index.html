@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+
+<body class="bg-teal-200 px-5">
+    <div class="bg-[#ffffff] rounded-[20px] pb-4">
+        <p class="text-lg md:text-7xl font-bold text-center mt-[20px]">PokeDEx</p>
+    </div>
+    <div class="my-4">
+        <input class="rounded-md border-2 border-solid border-[#C2C2C2] focus:border-[#694DF9] outline-none
+        active:border-[#E2DCFF] hover:border-[#694DF9] p-1" type="text" placeholder="Buscar pokemon">
+    </div>
+    <div id="big-container" class="flex justify-center items-center h-100">
+        <div id="container-pokes" class="flex flex-wrap md:gap-[40px] gap-[20px] justify-start">
+            
+        </div>
+    </div>
+    <div id="pagination" class="flex justify-center items-center my-[2rem] gap-3">
+        <div>
+            <button id="previous">
+                <<
+            </button>
+        </div>
+        <div>
+            <button>
+                sexo
+            </button>
+        </div>
+        <div>
+            <button id="next">
+                >>
+            </button>
+        </div>
+    </div>
+</body>
+<script src="./main.js"></script>
+
+</html>

@@ -1,0 +1,59 @@
+$teal:rgb(153,246,228)
+    
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+    background-color: $teal
+
+.container
+    margin: 1.2em auto 0
+    width: 90%
+
+.name
+    padding: 20px
+    p
+        text-align: center
+        font-size: 3.5em
+        font-weight: 600
+.stats
+    display: flex
+    gap: 30px
+    margin-bottom: 20px
+    .img-poke
+        overflow: hidden
+        border-radius: 20px
+        width: 300px
+        img
+            width: 100%
+    .contend-stats
+        width: 100%
+        display: grid
+        grid-template-columns: 1fr 1fr
+        border: 3px dashed #000
+        padding: 10px
+        border-radius: 20px
+        h3
+            font-size: 2.7em
+            margin-bottom: 5px
+        #stats, #ability
+            margin-left: 25px
+            font-size: 1.7em
+        
+            
+.evo
+    h2
+        font-size: 2.5em
+        text-align: center
+    .imgs-evo
+        display: grid
+        grid-template-columns: 1fr 1fr 1fr
+        .img-evo
+            width: 200px
+            border-radius: 20px
+            overflow: hidden
+            img
+                width: 100%
+
+
+

@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(153, 246, 228);
+}
+
+.container {
+  margin: 1.2em auto 0;
+  width: 90%;
+}
+
+.name {
+  padding: 20px;
+}
+.name p {
+  text-align: center;
+  font-size: 3.5em;
+  font-weight: 600;
+}
+
+.stats {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+.stats .img-poke {
+  overflow: hidden;
+  border-radius: 20px;
+  width: 300px;
+}
+.stats .img-poke img {
+  width: 100%;
+}
+.stats .contend-stats {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 3px dashed #000;
+  padding: 10px;
+  border-radius: 20px;
+}
+.stats .contend-stats h3 {
+  font-size: 2.7em;
+  margin-bottom: 5px;
+}
+.stats .contend-stats #stats, .stats .contend-stats #ability {
+  margin-left: 25px;
+  font-size: 1.7em;
+}
+
+.evo h2 {
+  font-size: 2.5em;
+  text-align: center;
+}
+.evo .imgs-evo {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.evo .imgs-evo .img-evo {
+  width: 200px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.evo .imgs-evo .img-evo img {
+  width: 100%;
+}/*# sourceMappingURL=style.css.map */
