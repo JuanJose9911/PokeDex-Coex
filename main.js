@@ -48,15 +48,14 @@ let offset = 0
 const previous = document.getElementById('previous')
 const next = document.getElementById('next')
 
-if (offset === 0) {
-    previous.disabled = true
-}
 
 previous.addEventListener("click", function(event){
-    offset -= 9
-    const container = document.getElementById("container-pokes");
-    container.innerHTML = ''
-    search(offset)
+    if (offset > 9) {
+        offset -= 9
+        const container = document.getElementById("container-pokes");
+        container.innerHTML = ''
+        search(offset)
+    }
 })
 
 next.addEventListener("click", function(event){
